@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Назарчик Бебра - Личная страница</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(to right, #ff0000, #8a2be2);
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .photos img {
+            margin: 10px;
+            border: 2px solid #ff0000;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .content {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .content h2 {
+            color: #8a2be2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Назарчик Бебра</h1>
+    </header>
+    <div class="container">
+        <section class="photos">
+            <img src="/mnt/data/9A5339F3-E2E0-4E45-8E88-4858A2A12174.jpeg" alt="Назарчик 1">
+            <img src="/mnt/data/08290185-EB65-419F-9011-4C2F1270D158.jpeg" alt="Назарчик 2">
+            <img src="/mnt/data/BDCD8CB7-A1EA-4C18-ABAD-9019D586F4CB.jpeg" alt="Назарчик 3">
+            <img src="/mnt/data/6B1FE704-9EC4-49AD-8E8D-20DE56167450.jpeg" alt="Назарчик 4">
+        </section>
+        <section class="content">
+            <h2>Обо мне</h2>
+            <p>Привет! Меня зовут Назарчик Бебра. Я творческая личность из Австрии, люблю рисовать и создавать что-то новое и удивительное. Моё творчество вдохновлено окружающим миром и людьми вокруг меня.</p>
+        </section>
+    </div>
+</body>
+</html>
